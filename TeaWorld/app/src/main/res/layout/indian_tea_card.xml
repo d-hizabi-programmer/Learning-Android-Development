@@ -34,7 +34,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
+        android:layout_width="422dp"
         android:layout_height="354dp"
         app:srcCompat="@drawable/indian_tea" />
 
