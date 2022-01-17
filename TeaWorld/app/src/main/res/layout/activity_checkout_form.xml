@@ -6,4 +6,96 @@
     android:layout_height="match_parent"
     tools:context=".checkout_form">
 
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="#752921"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPostalAddress"
+        app:layout_constraintStart_toStartOf="@+id/checkout"
+        app:layout_constraintTop_toBottomOf="@+id/checkout" />
+
+    <TextView
+        android:id="@+id/checkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="65dp"
+        android:text="CHECKOUT"
+        android:textColor="#213b75"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="513dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Address"
+        android:textColor="#752921"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned"
+        android:layout_width="335dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="Card Number"
+        android:textColor="#752921"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPostalAddress"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="339dp"
+        android:layout_height="36dp"
+        android:text="Total                                            $250"
+        android:textColor="#752921"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="338dp"
+        android:layout_height="52dp"
+        android:text="Place Your Order"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="339dp"
+        android:layout_height="48dp"
+        android:text="Home"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        tools:layout_editor_absoluteY="488dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
