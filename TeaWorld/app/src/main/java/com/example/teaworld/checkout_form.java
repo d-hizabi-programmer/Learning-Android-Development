@@ -18,7 +18,7 @@ public class checkout_form extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(getApplicationContext(),checkout_form.class);
+                Intent i=new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(i);
             }
         });
@@ -27,8 +27,7 @@ public class checkout_form extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText( ,"Order placed successfully.", Toast.LENGTH_SHORT).show();
-                Toast.makeText( "", Toast.LENGTH_SHORT).show();
+                Toast.makeText( getApplicationContext(),"Order placed successfully.", Toast.LENGTH_SHORT).show();
             }
         });
     }
