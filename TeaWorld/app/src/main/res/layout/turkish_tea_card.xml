@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
+    android:layout_margin="0dp"
     android:layout_marginLeft="16dp"
     android:layout_marginTop="16dp"
     android:layout_marginRight="16dp"
@@ -22,6 +22,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="0dp"
         android:text="@string/turkish_tea"
+        android:textColor="#213b75"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -34,14 +35,16 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:text="Feel the taste of Turkey!"
+        android:textColor="#752921"
         android:textSize="16sp"
         android:textStyle="bold|italic" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="456dp"
-        android:layout_margin="15dp"
+        android:layout_width="703dp"
+        android:layout_height="421dp"
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
@@ -55,15 +58,45 @@
         android:layout_margin="16dp"
         android:justificationMode="inter_word"
         android:text="Turkish tea is a staple at breakfast, a perfect way of relaxing during breaks at work and a must after a long tiring day. We serve it to our guests even without asking because everyone expects so."
-        android:textSize="16sp" />
+        android:textColor="#752921"
+        android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/buyNow"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="BUY NOW"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/buyNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="BUY NOW"
+            android:textColor="#213b75"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_favorite_border_24" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_share_24" />
+    </LinearLayout>
 
 </android.widget.LinearLayout>
