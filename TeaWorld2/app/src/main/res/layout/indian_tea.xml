@@ -16,10 +16,10 @@
         android:adjustViewBounds="true"
         android:rotation="0"
         android:rotationY="0"
-        app:srcCompat="@drawable/turkish_tea4" />
+        app:srcCompat="@drawable/indian_tea" />
 
     <TextView
-        android:id="@+id/turkish_heading"
+        android:id="@+id/indian_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -27,14 +27,14 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="5dp"
         android:fontFamily="@font/rubik_bold"
-        android:text="TURKISH TEA"
+        android:text="INDIAN TEA"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#442C2E"
         android:textSize="25sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/turkish_subHead"
+        android:id="@+id/indian_subHead"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -48,7 +48,7 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/turkish_price"
+        android:id="@+id/indian_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -61,7 +61,7 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/turkish_buy"
+        android:id="@+id/indian_buy"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

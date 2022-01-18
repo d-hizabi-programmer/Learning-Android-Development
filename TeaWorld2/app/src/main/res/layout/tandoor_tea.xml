@@ -10,9 +10,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="549dp"
-        android:layout_height="485dp"
-        android:layout_gravity="fill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         app:srcCompat="@drawable/tandoor_tea" />
 
@@ -65,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
 
-        android:background="#442C2E"
+        android:background="@color/primary"
         android:elevation="2dp"
         android:fontFamily="@font/rubik_bold"
         android:foregroundTint="#FEDBD0"
