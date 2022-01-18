@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEEAE6"
+    android:backgroundTint="#FEEAE6"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="549dp"
+        android:layout_height="485dp"
+        android:layout_gravity="fill"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/tandoor_tea" />
+
+    <TextView
+        android:id="@+id/tandoor_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/rubik_bold"
+        android:text="TANDOOR TEA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#442C2E"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tandoor_subHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/rubik_light_italic"
+        android:text="A new trend of India!"
+        android:textColor="#442C2E"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tandoor_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Price: $7.5"
+        android:textColor="#442c2e"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/tandoor_buy"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+
+        android:background="#442C2E"
+        android:elevation="2dp"
+        android:fontFamily="@font/rubik_bold"
+        android:foregroundTint="#FEDBD0"
+        android:hapticFeedbackEnabled="true"
+        android:shadowColor="#442c2e"
+        android:shadowDx="23"
+        android:shadowDy="23"
+        android:text="BUY NOW"
+        android:textColor="#442c2e"
+        android:textSize="16sp"
+        app:strokeColor="#442C2E"
+        app:strokeWidth="15dp"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>
