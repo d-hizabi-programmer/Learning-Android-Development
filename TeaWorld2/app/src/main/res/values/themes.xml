@@ -5,10 +5,18 @@
         <item name="colorPrimary">@color/primary</item>
         <item name="colorSecondary">@color/secondary</item>
         <item name="color">@color/fonts</item>
+        <item name="android:textColor">@color/fonts</item>
         <!-- Secondary brand color. -->
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondary</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/color</item>
+
         <!-- Customize your theme here. -->
+
+
+    </style>
+    <style name="MyAppTheme" parent="android:Theme.Holo.Light">
+        <!-- Change default text colour from dark grey to black -->
+
     </style>
 </resources>

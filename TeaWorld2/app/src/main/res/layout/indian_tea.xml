@@ -42,7 +42,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/rubik_light_italic"
-        android:text="Feel the taste of Turkey!"
+        android:text="The soul of India!"
         android:textColor="#442C2E"
         android:textSize="16sp"
         android:textStyle="bold" />
@@ -82,6 +82,6 @@
         android:textSize="16sp"
         app:strokeColor="#442C2E"
         app:strokeWidth="15dp"
-        tools:ignore="TextContrastCheck" />
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
 </LinearLayout>
