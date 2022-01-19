@@ -8,8 +8,6 @@
     android:foregroundTint="@color/fonts"
     android:textColor="@color/fonts"
     android:fontFamily="@font/rubik_light_italic"
-
-
     android:textSize="16sp"
     android:textStyle="bold" >
 

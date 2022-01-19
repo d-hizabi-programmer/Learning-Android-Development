@@ -1,5 +1,7 @@
 package com.example.teaworld;
 
+import static com.example.teaworld.R.*;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -13,19 +15,24 @@ public class checkout_form extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_checkout_form);
-        Button placeOrder = findViewById(R.id.placeOrder);
+        setContentView(layout.activity_checkout_form);
+        Button placeOrder = findViewById(id.placeOrder);
         placeOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Order placed succesfully!", Toast.LENGTH_SHORT).show();
+                Toast toast;
+                toast = Toast.makeText(getApplicationContext(), "Order placed successfully!", Toast.LENGTH_SHORT);
+                View v = toast.getView();
+
+
+                toast.show();
             }
         });
-        Button back = findViewById(R.id.back);
+        Button back = findViewById(id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), checkout_form.class);
+                Intent i = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(i);
             }
         });
