@@ -1,3 +1,5 @@
+package com.example.javaoops;
+
 public class Student extends Person {
 public int studentID;
 
